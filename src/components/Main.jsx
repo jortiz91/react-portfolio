@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
+        className="max-w-s w-full h-screen object-contain object-left scale-x-[-1]"
         src="src/assets/suit.jpg"
         alt="photo of Jonathan Ortiz-Ryals in a suit"
       ></img>
