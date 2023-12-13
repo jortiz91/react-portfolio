@@ -12,11 +12,15 @@ const Projects = () => {
           Check out my Projects by clinking on the Image!
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem img={eventsImg} title="Happenings App" />
-
-          <ProjectItem img={revealImg} title="Reveal App" />
-
-          <ProjectItem img={warImg} title="Card War App" />
+          <a href="https://happenings-events.fly.dev/" target="blank">
+            <ProjectItem img={eventsImg} title="Happenings App" />
+          </a>
+          <a href="https://romanreveal.surge.sh/" target="blank">
+            <ProjectItem img={revealImg} title="Reveal App" />
+          </a>
+          <a href="https://declarewar.surge.sh/" target="blank">
+            <ProjectItem img={warImg} title="Card War App" />
+          </a>
         </div>
       </h1>
     </div>
