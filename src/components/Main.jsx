@@ -6,7 +6,7 @@ const Main = () => {
     <div id="main">
       <img
         className="max-w-s w-full h-screen object-contain object-left scale-x-[-1]"
-        src="../assets/image.png"
+        src="./src/assets/wow.png"
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
