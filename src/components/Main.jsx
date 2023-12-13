@@ -1,12 +1,14 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedinIn } from 'react-icons/fa'
+import wowImage from '/src/assets/wow.png'
+
 const Main = () => {
   return (
     <div id="main">
       <img
         className="max-w-s w-full h-screen object-contain object-left scale-x-[-1]"
-        src="../src/assets/wow.png"
+        src={wowImage}
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
