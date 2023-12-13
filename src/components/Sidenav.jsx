@@ -44,12 +44,14 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#main"
+            href="/src/assets/resume.pdf"
+            target="blank" // Add the PDF file path here
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsPerson size={20} />
             <span className="pl-4">Resume</span>
           </a>
+
           <a
             onClick={handleNav}
             href="#contact"
@@ -86,7 +88,8 @@ const Sidenav = () => {
             <AiOutlineProject size={20} />
           </a>
           <a
-            href="#main"
+            href="/src/assets/resume.pdf"
+            target="blank"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor
       -pointer hover:scale-110 ease-in duration-200"
           >
