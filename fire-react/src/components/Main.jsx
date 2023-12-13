@@ -6,7 +6,8 @@ const Main = () => {
     <div id="main">
       <img
         className="max-w-s w-full h-screen object-contain object-left scale-x-[-1]"
-        src="src/assets/me.jpeg"
+        src="src/assets/image.png
+      "
         alt=""
       ></img>
 
