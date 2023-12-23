@@ -11,24 +11,24 @@ const data = [
   },
   {
     year: 2022,
-    title: 'Data Analyst',
+    title: 'Data Processing Specialist',
     duration: '03/2022 - 03/2023',
     details:
-      'Researched and analyzed the Participants Federal Retirement Thrift Savings Plan using Salesforce to gather relevant data to inform the participants qualification status.Enforced equitable split from a grand total ranging from 10,000 to $2.1 million of the Savings Plan among entitled payees, promoting financial fairness and accuracy.'
+      'Manually inputted participant data from the Federal Retirement Thrift Savings Plan into Salesforce, ensuring accuracy and completeness. Analyzed participant data to determine eligibility for retirement plan distributions. Enforced equitable splits of retirement plan assets up to $2.1 million, processing and validating financial data to promote financial fairness and accuracy.'
   },
   {
     year: 2020,
-    title: 'Program Manager',
+    title: 'Project Manager',
     duration: '02/2020 - 06/2021',
     details:
-      'Oversaw $1B Government Issued Material logistics, coordinating distribution to Afghan National Defense and Security Forces. Managed team of 18 Afghan Local National Employees by optimizing stock management, maintaining a secure environment, developing SOPs and enhancing efficiency across the team. Oversaw processing, compliance, and management of supplies, stock, materials, packages, and products'
+      'Spearheaded the logistics of a $1 billion government-issued material distribution project, ensuring timely and accurate delivery to the Afghan National Defense and Security Forces, exceeding expectations by 15%. Led a team of 18 Afghan Local National Employees, implementing stock management optimization strategies and developing SOPs, resulting in a 20% increase in efficiency.'
   },
   {
     year: 2010,
-    title: 'Automated Logistics Specialist',
+    title: 'Enterprise Resource Planning Specialist',
     duration: '02/2010 - 02/2020',
     details:
-      'Streamlined stock record and warehouse operations, maintaining accurate inventory records exceeding 1,000 lines quarterly.Directed and streamlined client operational support across multiple theaters of operation, including training initiatives for local national capacity development in SAP and other logistics support systems to improve Operational Readiness Postures.'
+      'Leveraged automation tools and data analysis techniques to optimize inventory management, consistently exceeding quarterly accuracy targets for 1,000+ lines. Utilized data driven insights to streamline client operational support and improve supply chain efficiency, contributing to cost reductions and performance improvements.'
   }
 ]
 const Work = () => {
@@ -48,3 +48,4 @@ const Work = () => {
   )
 }
 export default Work
+
